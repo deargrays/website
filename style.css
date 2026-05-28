@@ -53,6 +53,10 @@ video {
   margin:auto;
 }
 
+.homepageimage {
+  width:100%; 
+}
+
 .homepagebutton {
     width:100%;
     padding:5px;
@@ -81,6 +85,13 @@ video {
 }
 .column3 {
   width:50%
+}
+
+
+.column4 {
+  width:50%;
+  margin-top:0;
+  padding:0
 }
 
 .homepagecolumn {
@@ -127,8 +138,16 @@ video {
     column-count: 2;
 }
 
+.commpage {
+    column-count: 2;
+}
+
 .title {
     padding-top:40px;
+}
+
+.commpageimage{
+  width:50%;
 }
 
 @media (max-width:600px){
@@ -159,7 +178,22 @@ video {
   padding-bottom:0px;
   
 }
+.commpageimage {
+  width:100%;
+  text-align:center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  column-span:all;
+  padding-top:20px;
+  padding-bottom:0px;
+  
+}
 .homepage {
+    column-count: 1;
+}
+
+.commpage {
     column-count: 1;
 }
 .homepagecolumn {
